@@ -1,0 +1,7 @@
+num=int(input("Please input any number: "))
+num1=list(map(int,str(number)))
+num2=list(map(lambda x:x**3,number1))
+if(sum(num2)==num):
+	print("armstrong number. ")
+else:
+	print("not a arsmtrong number. ")
